@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(127, 197, 230, 0.5);
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    gap: 10%;
+    align-items: center;
+    padding: 1.5%;
+    top: 0%;
+    background-color: white;
+}
+.logo{
+    width: 160px;
+}
+ul{
+    display: flex;
+    gap: 43px;
+}
+li{
+    list-style: none;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+#active{
+    color: rgb(7, 155, 155);
+}
+.GS{
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 6px 17px;
+    background-color: rgb(154, 210, 255, 0.5);
+    border-radius: 10px;
+    border-color: transparent;
+    box-shadow: 0px 5px 6px 0px rgb(206, 205, 205);
+    font-weight: bold;
+}
+.bi-chevron-down{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.bi-arrow-right-short{
+    font-size: 20px;
+}
+.bi-list{
+    font-size: 30px;
+    margin-right: 0.5%;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    top: 30%;
+    position: absolute;
+    gap: 8%;
+}
+.content{
+    width: 40%; 
+}
+.photo img{
+width: 400px;
+}
+.p1{
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 1.5% 2%;
+    background-color:  rgb(3, 122, 122);
+    text-transform: capitalize;
+    margin-bottom: 5%;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 5%;
+}
+P{
+    color: rgb(105, 104, 104);
+    margin-bottom: 6%;
+}
+button{
+    font-size: 12px;
+    border: 1px solid transparent;
+    padding: 2% 4%;
+    font-weight:bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.white{
+    color: white;
+    background-color: black;
+}
+.black{
+    background-color: transparent;
+    border: 1px solid rgb(3, 122, 122);
+    margin-left: 10%;
+}
